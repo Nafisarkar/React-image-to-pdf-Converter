@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Fugaz+One&display=swap");
+
+.App-header {
+  background-color: #191e27;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Fugaz One", sans-serif;
+  color: white;
+}

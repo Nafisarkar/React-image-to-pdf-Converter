@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Fugaz+One&display=swap");
+
+.Fileselector {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Afacad", sans-serif;
+}
+.Fileselector input {
+  font-family: "Afacad";
+  font-size: 16px;
+}
+.filenameinput {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding: 1vh;
+  border-radius: 1px;
+  border: 1px solid #191e27;
+  font-family: "Afacad", sans-serif;
+  font-size: 16px;
+}
+
+.convertbtn {
+  padding: 0.5em;
+  border-radius: 1px;
+  border: 1px solid #191e27;
+  font-family: "Afacad", sans-serif;
+  font-size: 16px;
+  background-color: #191e27;
+  color: white;
+  cursor: pointer;
+}
+input::file-selector-button {
+  font-family: "Afacad", sans-serif;
+  color: rgb(25, 45, 65);
+  border: thin solid grey;
+}
+.fileselectorlabel {
+  font-family: "Afacad", sans-serif;
+  font-size: 26px;
+  color: #191e27;
+  margin-bottom: 1vh;
+}
